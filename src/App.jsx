@@ -5,7 +5,7 @@ import { Content } from './Components/Content';
 
 // Geting Data
 const fetchModesData = () => {
-  return axios.get('http://demo1030918.mockable.io/').then(res => res.data)
+  return axios.get('https://demo1030918.mockable.io/').then(res => res.data)
 }
 
 const App = memo(() => {
